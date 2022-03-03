@@ -3,10 +3,11 @@ import ReactDOM from 'react-dom';
 import Card from "./Card";
 import './index.css';
 import Sdata from './sdata';
-function ncard(val){
-  console.log(val);
+function ncard(val,index){
+  console.log(index);
   return(
   <Card
+  key={val.id}
   imgsrc={val.imgscr} alt="myPic" className="card_img"
   title={val.title}
   sname = {val.sname}
