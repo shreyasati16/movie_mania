@@ -16,7 +16,7 @@ body {
   align-items: center;
 }
 .heading_style{
-  padding: 30px 0;
+  padding: 30px 10px 0 10px;
   text-align: center;
   font-family:"Raleway",sans-serif;
   text-transform: uppercase;
@@ -121,6 +121,7 @@ color: #868686;
   .card img{
     width: 100%;
   }
- 
+   
+  
 
 }
